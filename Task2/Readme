@@ -1,0 +1,24 @@
+# Titanic Dataset - Exploratory Data Analysis (EDA)
+
+This repository provides EDA output for the Titanic dataset based on the following steps:
+
+1. **Summary Statistics**: Basic stats for numeric and categorical features in `output_summary_statistics.csv`.
+2. **Histograms & Boxplots**: Plots for each numeric feature stored as PNG files (e.g. `output_histogram_Age.png`).
+3. **Correlation Matrix**: Numeric feature correlations in `output_correlation_matrix.csv`.
+4. **Outlier Analysis**: Extreme values for Age and Fare in respective CSV files.
+5. **Feature-level Inferences**: CSV showing survival rates by class, sex, age bin, and embarkation port.
+
+## Tools & Libraries Used
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+## Instructions
+1. Place `Titanic-Dataset-1.csv` in your repo root.
+2. Run `eda.py` to reproduce EDA output.
+3. Outputs are generated as CSVs and PNGs in the same directory.
+
+---
+
+Contact for issues or suggestions.
